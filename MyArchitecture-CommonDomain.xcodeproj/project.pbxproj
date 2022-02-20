@@ -50,6 +50,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B392FCD427C27489002DD2FB /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCDD27C2750F002DD2FB /* Login */,
+				B392FCDE27C27517002DD2FB /* Account */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B392FCDD27C2750F002DD2FB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCDF27C27520002DD2FB /* Entities */,
+				B392FCE027C2752B002DD2FB /* UseCases */,
+				B392FCE127C2753A002DD2FB /* Interfaces */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B392FCDE27C27517002DD2FB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCE427C2755B002DD2FB /* Entites */,
+				B392FCE327C27555002DD2FB /* UserCases */,
+				B392FCE227C2754F002DD2FB /* Interfaces */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B392FCDF27C27520002DD2FB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B392FCE027C2752B002DD2FB /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B392FCE127C2753A002DD2FB /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		B392FCE227C2754F002DD2FB /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		B392FCE327C27555002DD2FB /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		B392FCE427C2755B002DD2FB /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
 		B3D60BC127C12B9800DC8074 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +142,7 @@
 		B3D60BCD27C12B9800DC8074 /* MyArchitecture-CommonDomain */ = {
 			isa = PBXGroup;
 			children = (
+				B392FCD427C27489002DD2FB /* Feature */,
 				B3D60BCE27C12B9800DC8074 /* MyArchitecture_CommonDomain.h */,
 				B3D60BCF27C12B9800DC8074 /* MyArchitecture_CommonDomain.docc */,
 			);
